@@ -144,13 +144,13 @@ nav a:last-child {
 }
 
 
-#bottom {
+#bottom1 {
   background-color: #E5E7EB;
   min-height: 430px;
   padding: 140px 0;
 }
 
-.btm_content blockquote {
+.btm1_content blockquote {
   font-size: 36px;
   font-weight: light;
   font-style: italic;
@@ -158,9 +158,51 @@ nav a:last-child {
   padding: 0 200px;
 }
 
-.btm_content cite {
+.btm1_content cite {
   font-size: 24px;
   font-weight: bold;
   display: block;
   text-align: right;
+}
+
+
+.btm2_content {
+  min-height: 350px;
+  display: flex;;
+  align-items: center;
+}
+
+.btm2_box {
+  background-color: #3882F6;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  min-height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 120px;
+}
+
+.btm2_box_info {
+  color: #fff;
+  width: 100%;
+}
+
+.btm2_box_info p {
+  margin-top: 10px;
+}
+
+.btm2_box a {
+  display: block;
+  width: 130px;
+  height: 37px;
+  line-height: 37px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
 }
