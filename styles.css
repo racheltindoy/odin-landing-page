@@ -50,10 +50,11 @@ header {
 nav a {
   color: #fff;
   text-decoration: none;
+   margin-right: 15px;
 }
 
-nav a {
-  margin-right: 15px;
+nav a:hover {
+  text-decoration: underline;
 }
 
 nav a:last-child {
@@ -104,6 +105,11 @@ nav a:last-child {
   text-align: center;
   border-radius: 5px;
   margin-top: 25px;
+}
+
+.banner a:hover {
+  background-color: rgb(6, 42, 14);
+  color: #fff;
 }
 
 .banner_img {
@@ -211,4 +217,9 @@ nav a:last-child {
   text-decoration: none;
   text-align: center;
   border-radius: 5px;
+}
+
+.btm2_box a:hover {
+  background-color: rgb(6, 42, 14);
+  color: #fff;
 }
