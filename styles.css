@@ -1,0 +1,82 @@
+/* .roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+* {
+  margin: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+
+header {
+  height: 80px;
+  background-color: #1F2937;
+  color: #fff;
+  display: flex;;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a {
+  margin-right: 15px;
+}
+
+nav a:last-child {
+  margin-right: none;
+}
+
+.banner {
+  background-color: red;
+  min-height: 450px;
+  color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner_content {
+  max-width: 455px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: 900px;
+}
+
+.banner a {
+  display: block;
+  width: 130px;
+  height: 37px;
+  line-height: 37px;
+  color: #fff;
+  background-color: #3882F6;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.
